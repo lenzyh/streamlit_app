@@ -64,6 +64,7 @@ year_month=date.today().strftime('%b %Y')
 # Set page configuration
 st.set_page_config(page_title="DBI News")
 
+##testing
 def get_data(url):
     r = requests.get(url)
     return r.text
